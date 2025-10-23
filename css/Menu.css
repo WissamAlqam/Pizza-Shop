@@ -1,0 +1,64 @@
+.menu-section {
+  padding: 50px;
+  background-color: #edf1cf;
+}
+
+.menu-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /*I used this because it automatically adapts to the screen size without having to write media queries.*/
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #f9f9f9;
+  border: 1px solid #e88f5c;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  margin: 15px;
+}
+
+.menu-item p {
+  font-size: 1rem;
+  margin-bottom: 13px;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.menu-item .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fb6247;
+  margin-bottom: 10px;
+}
+
+.menu-item .order-button {
+  background-color: #fb6247;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.4s ease;
+}
+
+.menu-item .order-button:hover {
+  background-color: #ff4400;
+}

@@ -1,0 +1,14 @@
+.services-section {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.services-content p {
+  font-size: 1.5rem;
+}
