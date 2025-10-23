@@ -4,18 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizza Store - Menu Section</title>
+
+  <!-- ✅ لاحظ أن المسارات الآن تبدأ بـ ../css/ -->
   <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="../css/Menu.css">
+  <link rel="stylesheet" href="../css/menu.css">
 </head>
 <body>
   <!-- Header -->
   <header>
     <nav>
       <ul>
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="Menu.html">Menu</a></li>
-        <li><a href="Services.html">Services</a></li>
-        <li><a href="Contact.html">Contact</a></li>
+        <!-- ✅ كل الروابط تشير الآن إلى ملفات داخل pages/ -->
+        <li><a href="home.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -25,29 +28,27 @@
       <h2>Our Menu</h2>
       <div class="menu-items">
 
-        <!-- Pepperoni Pizza -->
+        <!-- ✅ انتبه لمسار الصور بعد تغيير المجلد -->
         <article class="menu-item">
           <h3>Pepperoni Pizza</h3>
           <p>A classic favorite with spicy pepperoni and melted cheese.</p>
-          <img src="../Images/Pepperoni Pizza.jpg" alt="Pepperoni Pizza">
+          <img src="../images/pepperoni pizza.jpg" alt="Pepperoni Pizza">
           <p class="price">$13.99</p>
           <button class="order-button">Order Now</button>
         </article>
 
-        <!-- Margherita Pizza -->
         <article class="menu-item">
           <h3>Margherita Pizza</h3>
           <p>Simple yet delicious with fresh tomatoes, mozzarella, and basil.</p>
-          <img src="../Images/Margherita Pizza.jpg" alt="Margherita pizza">
+          <img src="../images/margherita pizza.jpg" alt="Margherita Pizza">
           <p class="price">$11.99</p>
           <button class="order-button">Order Now</button>
         </article>
 
-        <!-- Louis Style Pizza -->
         <article class="menu-item">
           <h3>Louis Style Pizza</h3>
           <p>A unique twist on the classic pizza with a special blend of spices and toppings.</p>
-          <img src="../Images/Louis Style Pizza.jpg" alt="Louis Style Pizza">
+          <img src="../images/louis style pizza.jpg" alt="Louis Style Pizza">
           <p class="price">$17.99</p>
           <button class="order-button">Order Now</button>
         </article>
@@ -57,7 +58,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; Pizza store. All rights reserved.</p>
+    <p>&copy; Pizza Store. All rights reserved.</p>
     <address>
       Contact me on <a href="mailto:wissamalqam16@gmail.com">wissamalqam16@gmail.com</a>
     </address>
